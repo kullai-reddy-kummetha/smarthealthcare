@@ -1,0 +1,117 @@
+body {
+	background-color: #ecf3f3;
+	margin: 0;
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+.nav-list {
+    float: left;
+}
+marquee {
+    background-color: cyan;
+    font-size: 30px;
+}
+.nav-list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+.nav-list a:hover:not(.active) {
+    background-color: #adafb2;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+td.p{
+	color: blue;
+	text-align: center;
+}
+.content {
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+    background-color: lightblue;
+	padding : 30px 60px 30px 60px;
+	border-radius: 20px;
+    font-size: 20px;
+
+}
+.content1{
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 130px;
+    margin-left: 130px;
+    background-color: lightblue;
+  padding : 30px 30px 30px 30px;
+  border-radius: 20px;
+  }
+.tag
+{
+    text-align: center;
+    color:green;
+	padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Times New Roman", Times, serif;
+    background: #b1dbb3 url('https://cdn2.iconfinder.com/data/icons/medical-12-1/512/xxx042-512.png') no-repeat fixed;
+    background-position: top right;
+    background-size: 100px 100px;
+}
+.logo
+{
+    padding-bottom: 20px ;
+    float: left;
+}
+
+.contactLogo {
+    width: 50px;
+    height: 50px;
+}
+.contact-border{
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+    background-color: lightblue;
+    padding : 30px 30px 30px 60px;
+    border-radius: 150px;
+    font-size: 150%;
+}
+.contact-list {
+    list-style-type: none;
+    
+}
+.social{
+    text-align: center;
+}
+
+.about-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.about-val {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.about-tr:nth-child(even) {
+    background-color: #dddddd;
+}

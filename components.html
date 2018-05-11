@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Components</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+  <div class= "logo"><img src="https://pbs.twimg.com/profile_images/638256483877056512/iHy6EcF4.jpg" alt="MITS Logo" width="100" height="100" align= "left"></div>
+  <div class="tag"><h1><b>Smart Healthcare System</b></h1></div>
+  <!-- <div class= "hospitalLogo"><img src="https://cdn2.iconfinder.com/data/icons/medical-12-1/512/xxx042-512.png" alt="Hospital Logo" width="100" height="100 align="right"></div>-->
+  <ul class="navbar">
+      <li class="nav-list"><a href="home.html">Home</a></li>
+      <li class="nav-list"><a href="datavalues.html">Data Values</a></li>
+      <li class="nav-list"><a href="graphs.html">Graphs</a></li>
+      <li class="nav-list"><a href="contact.html">Contact Us</a></li>
+      <li class="nav-list"><a href="about.html">About</a></li>
+      <li class="nav-list"><a href="components.html">Components</a></li>
+  </ul><br>
+<h2 class="w3-center">COMPONENTS</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="1.jpg" style="width:100%">
+  <img class="mySlides" src="2.jpg" style="width:100%">
+  <img class="mySlides" src="3.jpg" style="width:100%">
+  <img class="mySlides" src="4.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<div class= "content1">
+  <h2 align="center"><b>Description of Components</b></h2>
+  <h2><b>Arduino Uno</b></h2>
+  <p>We Use the Arduino software for programming the sensors.After the programming is done upload the code into the Arduino board.Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online.
+  </p>
+  <h2><b>Wi-Fi Module</b></h2>
+  <p>The ESP8266 WiFi Module is a self contained SOC with integrated TCP/IP protocol stack that can give any microcontroller access to your WiFi network. The ESP8266 is capable of either hosting an application or offloading all Wi-Fi networking functions from another application processor.</p>
+  <h2><b>Pulse sensor</b></h2>
+  <p>Pulse Sensor Amped is a plug-and-play heart-rate sensor for Arduino and Arduino compatibles.
+  It can be used by students, artists, athletes, makers, and game & mobile developers who want to easily incorporate live heart-rate data into their projects.</p>
+  <h2><b>Temperature sensor</b></h2>
+  <p>DHT11 sensor is used to measure the temperature.A thermistor is actually a variable resistor that changes its resistance with change of the temperature.The term “NTC” means “Negative Temperature Coefficient”, which means that the resistance decreases with increase of the temperature.
+  </p>
+  <h2><b>Accelerometer</b></h2>
+  <p>The product measures acceleration with a minimum full-scale range of ±3g.
+   It can measure the static acceleration of gravity in tilt-sensing applications, as well as dynamic acceleration resulting from motion, shock, or vibration. </p>
+</div>
+</body>
+</html>
